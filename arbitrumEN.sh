@@ -14,7 +14,7 @@ echo "======================================================"
 sleep 1
 sudo apt update && sudo apt upgrade -y
 sudo apt install docker.io -y
-mkdir -p ~/data/arbitrum
+mkdir -p ~//data/arbitrum
 chmod -fR 777 ~/data/arbitrum
 
 if [ ! $L1URL ]; then
